@@ -1,0 +1,17 @@
+﻿<Window x:Class="PostfixAplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostfixAplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF1D64A5">
+        <TextBox Background="#FF5CB2C3" Name="Combination" HorizontalAlignment="Left" Height="61" Margin="97,172,0,0" TextWrapping="Wrap" Text="Combination" VerticalAlignment="Top" Width="157"/>
+        <TextBox Background="#FF5CB2C3" Name="Outputing" HorizontalAlignment="Left" Height="61" Margin="380,172,0,0" TextWrapping="Wrap" Text="Outputing" VerticalAlignment="Top" Width="157"/>
+        <Button Content="Enter" Cursor="Hand" HorizontalAlignment="Left" Height="43" Margin="591,233,0,0" VerticalAlignment="Top" Width="111" Click="ButtonEnter"/>
+        <Button Content="Clear" Cursor="Hand" HorizontalAlignment="Left" Height="43" Margin="591,303,0,0" VerticalAlignment="Top" Width="111" Click="ButtonClear"/>
+
+
+    </Grid>
+</Window>
